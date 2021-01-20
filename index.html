@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="stylesheet/index.css">
+</head>
+<body>
+    
+
+    <header>
+        <img class="activator" id="activator" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAUUlEQVRIS+2USQoAMAgDzf8fnZ67UA9lBKGeq5MFqoBH8P34gDTh+ohsO5V1eSBpEr05wAEv6k+79R3gDvAOcAAeUX8A3gEO6N/Bd7AmgP+mA2tUGBlfaHSyAAAAAElFTkSuQmCC"/>
+        <nav>
+            <ul>
+                <li><a href=""><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABp0lEQVRIS72VzXHCMBCF37qBUAKpIDYNQCqIOggdhMHkHHKOPYEKIBVkqSBOA9h0AB1QgZSRf4iEjW2YAR0la799+3ZlwpUXXTk+bg8QPX8GhYeLlBE2vA5H5t2SAuFNIkD1LwKAfjkOBvWATMHLRQDCvFlBbzKFUm8pgDAHaF8PU51DQkTvvA6mDQoMgKJHToKoDiDcyQCkfrKE2gDMC0ACoFpBbqgFqEiobLINqEk+M1S44yGIFumH7QCvLkjGR5F3IFpaexKRLp8wPVOOx8mHVn1YlYMmPF/ZgHL7FecmgOOwFK8lIPXBygwKc05CFt6YAXrSwHMAOuAdgA0UjeBIF4o+LVV5vY3B3HEcdo9NO6GgmObCSKMViwglQHUZGwDYchze65jCHXUBJ38GZMTJbJvuH/w6C+DrjnnOp3lJkvg7CVam/LT/IfsgKib3i+Nw2K5EZuv939iDkE21glbSsYJVTHH22lQsq7frHyKj4cvPxGmArrfjiCzTrAVPL7VKlUnJhS+Ng3YcTLi+gIMBFETuCyOd5JCbBN7+l9mU0bnnV1fwB2IJ1BlnBbnHAAAAAElFTkSuQmCC"/></a></li>
+                <li><a href=""><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABnklEQVRIS72V3VXCQBCF70Tf1Q7owA0NABW4HYgd5BB8Fp8liBVoCUsFQgMmVCAl0IAZz24STMgPWTyw5/Cymd1v78ydgXDiRSe+H+cHSHe8BLh3nDJaqXDaz58tKTgDYKQAujtOAS9UOJPNCrrjCZifTBDToBWI+NPEET2rr+nECqCi6bIJIsW4DyuAGA1B9J4p0ADZ9edg3NaArgGIJJ4fVDT7aFaQfxHTwADaOiuNbw9IcyqF1wEuO5UKiIcA7vOKDwC8Dujiu65o+xBZMMXPjYrm20aA/ihdn9OgDQD9Ky/Gm4oCJV1f59woUGFQ6qvKUZEDrMHkwYkFmF4LlIr62AAiQLsmaf2CFTNKGbBWYZC4KbdqFOzmUaTCwDVpE9414KRdGqss19L1dc6vssfYAgCGBzgrFb1oVbslxaMA4h4I82SzPOjMblX9Cs74C9iAkHQ1Q0/Mom0rxoQtoNJMu00rgG4sx5HJSw9NVl4YZbGpS8nSrf7RpPAlHPTB0EXeJhdiqfugWVZNDQ4dsvneSoHNha1s+p8L98/+ApTT0xm8OxglAAAAAElFTkSuQmCC"/></a></li>
+                <li><a href=""><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABNUlEQVRIS+2VwU3DQBBF39jccQmmAjapgFTAUgFQAUYJZ8w9CUkHKWGpACrALsEdYO7Bg9YiQUFCiYkTccjeZjUzf/6fr11hx0d23J/9AthOX9tg5LLRcvAVBgeAhbwHidYa7R9LpNIjqAwqj8A7qgkEBWiEkAKnnt6fGfhCawZniD6jeu3y8ayOmRdwFNf37QFID+Y5Er4BBRBvbdMVBiIP7nWYWpPESOjluWwXwHdTTaGaunxSWnNnkOoFOG5nB99mLVG9rffR7U9QbpoBCFNUDKhx2Sj6WrKrHRQEMar3oE8uG1vbHaQ+bgJQoh8nXoLFwLbTnwHnqFy4fOglqY81SYSEmV92EwBfW6Dqm0IgMcrVUh3BUWkORIjYhZOaAqx9Gn4m/ArQuNMGBfv9kzcYqHHKJ9UuvhkgF2AiAAAAAElFTkSuQmCC"/></a></li>
+                <li><a href=""><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABnElEQVRIS9WVwU3DQBBF/6wLwB0QKsDpwD4jJHeQdIClQAGcIZLFHZF0YA6ciWjApgOng1BA9qNNiGM79iZWiBB7XO3+N/NndlZw4iUn1sffA0JvFEJhAMIH4P5knEOQQav7JHvIbC5YMwi9Ow+iZxCJQUYAzmpiC3DZT7I4b4PsAdz6EL6AywDivAPo7QhRgiR7nB0DMMLtqysg9CJXRC7bFAlVjZYSQMGH1gT0tG5XxSIjDnHSRitaiRJAuMlypyZVQH80ATDo9DZMBluAuTpN0vFwo1EHmG447wD4ouhrofoo3cmTdHzRBmCD+ByQhjZkTlHPQv0EwCvfS9JxEXg9gxqAr6CKoXgDFo+srGWEN4+v2LcBKhaR6kpEv3WwzBydJ+m4eC/2Iu8W8BCWpche1IM4ZrasR0J3wCe49JMsXjQW2WyGBqJUCCgXGrNaC66hLatpZBwyi353VJSDC73VsGsCrKxY2UkZHjHsajXZ0hcgJxCJQNW3/Ql7f7R1TZwIFA+gaT8XkAxgDsrEFr2JZy/gkL60nfn/gG9LrbEZh7wXmgAAAABJRU5ErkJggg=="/></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js" integrity="sha512-1dalHDkG9EtcOmCnoCjiwQ/HEB5SDNqw8d4G2MKoNwjiwMNeBAkudsBCmSlMnXdsH8Bm0mOd3tl/6nL5y0bMaQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/CSSRulePlugin.min.js" integrity="sha512-9F1xsW3TBG87UnyGcF1SrXph249h/eUKPRKJZVhXxW+OeDmCiBvU9/gLfOo5qEvGTjTxOr6YQrY4ImjL90IUyw==" crossorigin="anonymous"></script>
+
+<script>
+        let card = document.getElementById('activator');
+        let tl = gsap.timeline({defaults: {ease: 'power2.in0out'}})
+
+        let toggle = false;
+
+        tl.to('.activator', {
+            background: '#805ad5',
+            'borderRadius': '5em 0 0 5em'
+        })
+
+        tl.to('nav', {
+            'clipPath': 'ellipse(100% 100% at 50% 50%)'
+        }, "-=.5")
+
+        tl.to('nav img', {
+            opacity: 1,
+            transform: 'translateX(0)',
+            stagger: .05
+        }, "-=.5")
+
+        tl.pause();
+
+        card.addEventListener('click', () => {
+            toggle = !toggle;
+            if (toggle ? tl.play() : tl.reverse());
+        })
+</script>
+
+</body>
+
+</html>

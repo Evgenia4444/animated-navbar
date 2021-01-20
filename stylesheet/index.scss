@@ -1,0 +1,70 @@
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: rgb(36,40,49);
+    color: white;
+    display: grid;
+    place-content: center;
+}
+
+header {
+    display: flex;
+
+    .activator {
+        cursor: pointer;
+        padding: 1em;
+        border-radius: 100%;
+        fill: white;
+       
+    
+        &:hover {
+            background: rgb(30, 33, 41);
+        }
+    }
+}
+
+img {
+    width: 100%;
+    max-width: 60px;
+}
+
+
+svg {
+    fill: white;
+}
+
+ul {
+    list-style-type: none;
+        padding: 0;
+        margin: 0;
+   
+}
+
+nav {
+    background: rgb(41,46,56);
+    border-radius: 0 5em 5em 0;
+    padding: .5em;
+    clip-path: ellipse(50% 50% at -50% 50%);
+    
+
+    ul {
+        display: flex;
+        
+
+       li a {
+            display: block;
+            padding: .5em;
+            margin: 0 .5em;
+            border-radius: 50%;
+            transition: background-color .3s;
+
+            &:hover {
+                background-color: rgb(50,56,68);
+            }
+
+          
+        }
+    }    
+}
+
